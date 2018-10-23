@@ -1,0 +1,22 @@
+{
+  "name": "AAACheck",
+  "description": "Checks current page using AChecker accessibility checker WCAG 2.0 (Level AAA).",
+  "author": "Erik Uunila",
+  "homepage_url": "https://github.com/eriku/AAAChecker",
+  "version": "1.0",
+  "permissions": [
+    "activeTab", "tabs", "http://*/*", "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Check this page on AChecker.ca",
+    "default_icon": "assets/icon48.png"
+  },
+  "icons": { "16": "assets/icon16.png",
+           "48": "assets/icon48.png",
+          "128": "assets/icon128.png" },
+  "manifest_version": 2
+}
