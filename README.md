@@ -19,4 +19,4 @@ This extension automates the following steps on behalf of the user:
 6. Toggle off Developer mode
 
 ## Who built it
-The original builder was https://github.com/chocopie/AC-check but I have rewritten their code because this was broken
+The original builder was https://github.com/chocopie/AC-check but I have rewritten their code because theirs was broken
